@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-firmata-arduino",
+  "version": "1.0.0",
+  "description": "Controlar arduino via web con firmatra y nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PepoBJ/nodejs-firmata-arduino.git"
+  },
+  "keywords": [],
+  "author": "Robert BJ HC <bj112143@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PepoBJ/nodejs-firmata-arduino/issues"
+  },
+  "homepage": "https://github.com/PepoBJ/nodejs-firmata-arduino#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "johnny-five": "^0.12.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}

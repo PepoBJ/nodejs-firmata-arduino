@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;box-sizing: border-box;
+}
+
+body {
+	margin-top: .5em;
+}
+
+div {
+	display: inline-block;
+	vertical-align: middle;
+	padding: .5em;
+	box-sizing: border-box;
+}
+
+button {
+	display: block;
+	width: 100%;
+	padding: .5em;
+	margin-top: .5em;
+	border: none;
+	background: none;
+	font-family: Courier New, Courier, monospace;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #fff;
+	border-radius: .5em;
+	outline: none;
+	cursor: pointer;
+	transition: ease-in all .3s;
+}
+
+button:hover {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+}
+
+#leds {
+	width: 49%;
+	max-width: 49%;
+	border-right: 2px solid rgb(80, 74, 74);
+}
+
+#actions {
+	width: 49%;
+	max-width: 50%;
+}
+
+.azul {
+	background: rgba(0, 0, 255, 1);
+}
+
+.rojo {
+	background: rgba(255, 0, 0, 1);
+}
+
+.verde {
+	background: rgba(0, 255, 0, 1);
+}
+
+.type_turn {
+	background: rgb(80, 74, 74);
+}
+
+.azul-off {
+	background: rgba(0, 0, 255, .3);
+}
+
+.rojo-off {
+	background: rgba(255, 0, 0, .3);
+}
+
+.verde-off {
+	background: rgba(0, 255, 0, .3);
+}
+
+.activated {
+	border: 5px solid rgb(248, 242, 57);
+}
