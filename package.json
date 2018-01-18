@@ -23,6 +23,7 @@
     "socket.io": "^2.0.4"
   },
   "devDependencies": {
+    "local-ip": "^2.0.0",
     "supervisor": "^0.12.0"
   }
 }

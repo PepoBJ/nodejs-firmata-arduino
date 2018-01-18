@@ -6,6 +6,8 @@ const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 const port = process.env.PORT || 3000;
 const publicDir = express.static(`${__dirname}/public`);
+const interfaceWifi = 'Wi-Fi'; // wlan0
+const localip = require('local-ip')(interfaceWifi);
 const five = require('johnny-five');
 const portAndroid = 'COM3';
 const pinLeds = {
@@ -20,8 +22,8 @@ app
 		res.sendFile(`${publicDir}/index.html`);
 	});
 
-http.listen(port, () => console.log('Servidor iniciado en http://localhost:%d', port));
- 
+http.listen(port, () => console.log('Servidor iniciado en http://%s:%d', localip, port));
+
 const board = new five.Board({
 	repl: false,
 	port: portAndroid
