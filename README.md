@@ -3,8 +3,8 @@
 Este es un ejemplo sencillo de como controlar arduino con nodejs mediante el protocola firmata.
 Este ejemplo nos permite controlar el prendido y apagado de 3 leds, como también la itinerancia de estos. 
 
-[![Linux Build][travis-image]]
-[![Windows Build][appveyor-image]]
+![Linux Build][travis-image]
+![Windows Build][appveyor-image]
 
 ## Instalación
 
