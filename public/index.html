@@ -9,13 +9,13 @@
 </head>
 <body>
 	<div id="leds">
-		<button class="led azul" data-off="azul-off" data-on="azul" data-color="1" data-turn="on">Azul</button>
-		<button class="led verde" data-off="verde-off" data-on="verde" data-color="2" data-turn="on">Verde</button>
-		<button class="led rojo" data-off="rojo-off" data-on="rojo" data-color="0" data-turn="on">Rojo</button>
+		<button id="led_1" class="led azul" data-off="azul-off" data-on="azul" data-color="1" data-turn="on">Azul</button>
+		<button id="led_2" class="led verde" data-off="verde-off" data-on="verde" data-color="2" data-turn="on">Verde</button>
+		<button id="led_0" class="led rojo" data-off="rojo-off" data-on="rojo" data-color="0" data-turn="on">Rojo</button>
 	</div>
 	<div id="actions">
-		<button class="type_turn activated" data-type="blink">Blink</button>
-		<button class="type_turn" data-type="pulse">Prendido</button>
+		<button id="turn_type_blink" class="type_turn activated" data-type="blink">Blink</button>
+		<button id="turn_type_pulse" class="type_turn" data-type="pulse">Prendido</button>
 	</div>
 
 	<script src="./socket.io/socket.io.js"></script>

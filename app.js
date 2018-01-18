@@ -54,6 +54,8 @@ board.on('ready', () => {
 				leds[led.color].off();
 			}
 			
+			io.emit('turn_change', led);
+
 			console.log('Turn recivied => ', led);
 		});
 
@@ -72,6 +74,8 @@ board.on('ready', () => {
 
 				leds.on();
 			}
+			
+			io.emit('turn_type_change', type);
 
 			console.log('Turn type recivied => ', type);
 		});
