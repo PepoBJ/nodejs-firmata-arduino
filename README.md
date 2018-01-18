@@ -11,7 +11,7 @@ Este ejemplo nos permite controlar el prendido y apagado de 3 leds, como tambié
 La instalación se hace directamente desde npm.
 
 ```bash
-$ npm npm install
+$ npm install
 ```
 
 ## Dependencias
