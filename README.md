@@ -1,4 +1,4 @@
-# Controlar arduino via web con firmatra y nodejs
+# Controlar arduino vía web con firmatra y nodejs
 
 Este es un ejemplo sencillo de como controlar arduino con nodejs mediante el protocola firmata.
 Este ejemplo nos permite controlar el prendido y apagado de 3 leds, como también la itinerancia de estos. 
